@@ -166,11 +166,6 @@ public class Fragment_Add_New_Group extends Fragment {
         return false;
     }
 
-    private boolean validGroupName(String groupName) {
-        //TODO input validation
-        return true;
-    }
-
     private void findViews(View view) {
         new_group_LBl = view.findViewById(R.id.new_group_LBl);
         phoneContinueBtn = view.findViewById(R.id.phoneContinueBtn);
