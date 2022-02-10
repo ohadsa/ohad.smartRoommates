@@ -1,8 +1,19 @@
 # smart Roommates
-An application for managing joint expenses between roommates
-https://drive.google.com/file/d/1vOY2Hv8XBVUdzZVMUaSln7XcTaCj6IbL/view?usp=sharing
 
-  ## Register using FireBase
+https://drive.google.com/file/d/1vOY2Hv8XBVUdzZVMUaSln7XcTaCj6IbL/view?usp=sharing
+An application for managing joint expenses between roommates<br />
+using FireBase Aout and RTDB <br /><br />
+database structure:<br />
+  <p align="left">
+
+  
+ <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/1DB.png?raw=true" width="300" height="200" >
+   <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/2DB.png?raw=true" width="300" height="200" >
+   <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/3DB.png?raw=true" width="300" height="200" >
+ </p>
+
+
+  ## Register 
   user write his phone number and get pin code to login<br />
     in case user didnt registered signin page will open, otherwise the app page will open
   <p align="left">
