@@ -7,9 +7,9 @@ database structure:<br />
   <p align="left">
 
   
- <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/1DB.png?raw=true" width="300" height="200" >
-   <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/2DB.png?raw=true" width="300" height="200" >
-   <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/3DB.png?raw=true" width="300" height="200" >
+ <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/1DB.png?raw=true" width="220" height="160" >
+   <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/2DB.png?raw=true" width="220" height="160" >
+   <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/3DB.png?raw=true" width="220" height="160" >
  </p>
 
 
