@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:overScrollMode="never"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_24sdp"
+    android:scrollbars="none"
+    android:background="@drawable/ic_baseline_phone_android_24"
+    tools:context=".Authentication.LogInActivity">
+
+
+  <LinearLayout
+
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iconIv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logoroonates"/>
+
+  <com.google.android.material.textview.MaterialTextView
+      style="@style/TextAppearance.MaterialComponents.Subtitle1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_horizontal"
+      android:text="Smart roommates ! "
+      android:textStyle="bold"
+      android:textSize="28dp"
+      android:shadowRadius="2"
+      android:shadowDx="1"
+      android:shadowDy="1"
+      android:textAlignment="center"
+      android:textColor="@color/appReg" />
+
+  <LinearLayout
+      android:id="@+id/phoneLl"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:orientation="vertical"
+      >
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textSize="21dp"
+        android:text="Phone Number"
+        android:textAlignment="center"
+        android:textColor="@color/appReg" />
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your number to log in"
+        android:textSize="17dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/appReg" />
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phoneEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="60dp"
+        android:hint="phone"
+        android:inputType="phone"
+        app:hintTextColor="#c5c5c5"
+        android:textColorHint="#c5c5c5">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="phone"
+          android:hint="                05xxxxxxxx"
+          android:ems="30"
+          android:imeOptions="actionDone" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/phoneContinueBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="Continue"
+        android:gravity="center"
+        android:layout_margin="24dp"
+        android:textAllCaps="false"
+        android:textColor="@color/appReg"
+        app:strokeColor="@color/appReg"
+        app:cornerRadius="50dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+        />
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/codeLl"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginTop="50dp"
+      android:visibility="gone"
+
+      >
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="21dp"
+        android:text="Vrification Code"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/appReg" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/codeSentDescription"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter the verification code "
+        android:textSize="17dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/appReg" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/codeEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:inputType="number"
+        android:layout_marginHorizontal="60dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#c5c5c5">
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:inputType="phone"
+          android:hint="verification code"
+          android:ems="30"
+          android:imeOptions="actionDone" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/resendCodeTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="#777777"
+        android:text="@string/didnt_get_otp_resend"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/codeSubmitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Continue"
+        android:backgroundTint="@color/backgroundBigg"
+        android:layout_margin="24dp"
+        android:textAllCaps="false"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:textColor="@color/appReg"
+        app:strokeColor="@color/appReg"
+        app:cornerRadius="50dp"
+        />
+  </LinearLayout>
+
+
+
+  </LinearLayout>
+</ScrollView>
+
+

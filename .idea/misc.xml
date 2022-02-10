@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_base_recycle_view.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/drawable/background_icon.xml" value="0.2515625" />
+        <entry key="app/src/main/res/drawable/background_image.xml" value="0.2515625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_phone_android_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_app.xml" value="0.20876648065057765" />
+        <entry key="app/src/main/res/layout/activity_firebase_ui.xml" value="0.26045428338317606" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.3657033252088089" />
+        <entry key="app/src/main/res/layout/fragment_add_new_expense.xml" value="0.240625" />
+        <entry key="app/src/main/res/layout/fragment_add_new_group.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/layout/fragment_balance.xml" value="0.22769960070675596" />
+        <entry key="app/src/main/res/layout/fragment_edit_expense.xml" value="0.18958333333333333" />
+        <entry key="app/src/main/res/layout/fragment_edit_group.xml" value="0.22424469292423713" />
+        <entry key="app/src/main/res/layout/fragment_edit_user.xml" value="0.270213010190375" />
+        <entry key="app/src/main/res/layout/fragment_expenses.xml" value="0.23475409836065575" />
+        <entry key="app/src/main/res/layout/fragment_group.xml" value="0.12835820895522387" />
+        <entry key="app/src/main/res/layout/fragment_group_list.xml" value="0.289847495139888" />
+        <entry key="app/src/main/res/layout/fragment_tasks.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/fragment_transactions.xml" value="0.3265625" />
+        <entry key="app/src/main/res/layout/fregment_edit_expense.xml" value="0.2265625" />
+        <entry key="app/src/main/res/layout/list_expenses.xml" value="0.36888302671100237" />
+        <entry key="app/src/main/res/layout/list_groups.xml" value="0.31784841075794623" />
+        <entry key="app/src/main/res/layout/list_suttles.xml" value="0.31186997665434935" />
+        <entry key="app/src/main/res/layout/list_transactions.xml" value="0.3543518918767418" />
+        <entry key="app/src/main/res/layout/list_user.xml" value="0.41140529531568226" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.22708333333333333" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.6951217270551244" />
+        <entry key="app/src/main/res/menu/member_menu.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/menu/members_menu.xml" value="0.2635416666666667" />
+        <entry key="app/src/main/res/menu/top_navigation_menu.xml" value="0.22708333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "423940680964",
+    "project_id": "smartsroommates",
+    "storage_bucket": "smartsroommates.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423940680964:android:09d13a37318fbd2a337451",
+        "android_client_info": {
+          "package_name": "com.ohad.smartRoommates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423940680964-jr48rupboqcrs5o82dhdhu6rmdq0rolg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE4rbi3cSahyQYBGth_3EA1zRSGiSNuX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423940680964-jr48rupboqcrs5o82dhdhu6rmdq0rolg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

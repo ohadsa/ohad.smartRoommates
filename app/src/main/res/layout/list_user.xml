@@ -1,0 +1,82 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="42dp">
+
+
+    <RelativeLayout
+        android:id="@+id/memberDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundBigg"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        >
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/memberDetailImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/background_image"
+            app:riv_oval="true"
+
+
+            />
+
+        <TextView
+            android:id="@+id/memberDetailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/memberDetailImage"
+            android:layout_toRightOf="@+id/memberDetailImage"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Israel Israeli"
+            android:textColor="@color/appReg"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/memberDetailNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/memberDetailName"
+            android:layout_marginLeft="14dp"
+            android:layout_toEndOf="@+id/memberDetailImage"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="052-1111111"
+            android:textColor="@color/appReg"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/deleteUserBtn"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:text="delete"
+            android:visibility="gone"
+            android:backgroundTint="#E53935"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:cornerRadius="50dp"
+            app:strokeColor="@color/black" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

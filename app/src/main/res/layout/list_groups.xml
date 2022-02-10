@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="23dp"
+    android:elevation="@dimen/cardview_compat_inset_shadow"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp">
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundBigg"
+        >
+
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/Group_LBL_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:maxLines="2"
+            android:minLines="2"
+            android:text="Group name"
+            android:textColor="@color/appReg"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/main_LST_Users"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/Group_LBL_title"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp" />
+    </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/options_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@color/backgroundBigg"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/edit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:text="e\nd\ni\nt"
+            android:backgroundTint="@color/appReg"
+            android:textColor="@color/black"
+            app:strokeColor="@color/appReg"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/delete_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:text="d\ne\nl\ne\nt\ne"
+            android:backgroundTint="#E53935"
+            android:textColor="@color/black"
+            app:strokeColor="#E53935"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

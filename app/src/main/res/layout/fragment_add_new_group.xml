@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/new_group_LBl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:text="lets open new group"
+        android:textColor="@color/appReg"
+        android:textSize="27dp" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Group_Name_Et"
+            android:layout_marginHorizontal="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/new_group_LBl"
+            android:gravity="center"
+            android:hint="group name "
+            android:inputType="textCapWords"
+            app:hintTextColor="#c5c5c5"
+            android:textColorHint="#c5c5c5">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:ems="30"
+                android:imeOptions="actionDone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Add_Member_Et"
+        android:layout_marginHorizontal="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_group_LBl"
+        android:gravity="center"
+        android:hint="phone"
+        android:inputType="phone"
+        android:visibility="gone"
+        app:hintTextColor="#c5c5c5"
+        android:textColorHint="#c5c5c5">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="                05xxxxxxxx"
+            android:ems="30"
+            android:imeOptions="actionDone" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/phoneContinueBtn"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Group_Name_Et"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="     Continue     "
+        android:textAllCaps="false"
+        android:textColor="@color/appReg"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/appReg" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/phoneAddMemberBtn"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Add_Member_Et"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="  add member   "
+        android:visibility="gone"
+        android:textAllCaps="false"
+        android:textColor="@color/appReg"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/appReg" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/phoneFinishBtn"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/phoneAddMemberBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:visibility="gone"
+        android:text="finish and save"
+        android:textAllCaps="false"
+        android:textColor="@color/appReg"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/appReg" />
+
+</RelativeLayout>

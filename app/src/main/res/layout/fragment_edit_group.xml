@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="Group details : "
+        android:textAlignment="center"
+        android:textColor="@color/appReg"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/groupName_LO"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="60dp"
+        android:hint="groupName"
+        android:inputType="text"
+        android:textColorHint="#c5c5c5"
+        app:hintTextColor="#c5c5c5">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:gravity="bottom|center"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:layout_marginTop="130dp"
+        android:shadowRadius="2"
+        android:text="Add member: "
+        android:textAlignment="center"
+        android:textColor="@color/appReg"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/new_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="150dp"
+        android:hint="Number"
+        android:inputType="phone"
+        android:textColorHint="#c5c5c5"
+        app:hintTextColor="#c5c5c5">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="30"
+            android:hint="                05xxxxxxxx"
+            android:imeOptions="actionDone"
+            android:inputType="phone" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addMemberBtn"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="210dp"
+        android:gravity="center"
+        android:text="add"
+        android:textAllCaps="false"
+        android:textColor="@color/appReg"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/appReg" />
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="270dp"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="All members: "
+        android:textAlignment="center"
+        android:textColor="@color/appReg"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:layout_marginTop="310dp"
+        android:shadowRadius="2"
+        android:text="tap to delete members "
+        android:textAlignment="center"
+        android:textColor="@color/appReg"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_LST_Users_edit"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="340dp"
+        android:layout_weight="1.2"
+        android:scrollbars="vertical" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/saveBtn"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="120dp"
+        android:text="save"
+        android:textAllCaps="false"
+        android:textColor="@color/appReg"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/appReg" />
+
+
+</RelativeLayout>
