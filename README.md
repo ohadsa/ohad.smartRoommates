@@ -6,13 +6,6 @@ using FireBase Aout and RTDB <br /><br />
 database structure:<br />
   <p align="left">
 
-  
- <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/1DB.png?raw=true" width="220" height="160" >
-   <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/2DB.png?raw=true" width="220" height="160" >
-   <img src="https://github.com/ohadsa/ohad.smartRoommates/blob/master/images/3DB.png?raw=true" width="220" height="160" >
- </p>
-
-
   ## Register 
   user write his phone number and get pin code to login<br />
     in case user didnt registered signin page will open, otherwise the app page will open
