@@ -3,7 +3,7 @@
 https://drive.google.com/file/d/1vOY2Hv8XBVUdzZVMUaSln7XcTaCj6IbL/view?usp=sharing
 An application for managing joint expenses between roommates<br />
 using FireBase Aout and RTDB <br /><br />
-database structure:<br />
+
   <p align="left">
 
   ## Register 
